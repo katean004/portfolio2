@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>KA Portfolio</title>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/b93a76149b.js"></script>
+
     <!-- Bootstrap icons -->
     <link
       rel="stylesheet"
@@ -17,7 +20,9 @@
     <section>
       <!-- Navbar -->
       <nav>
-        <a href="#" class="logo">KA Portfolio</a>
+        <a href="index.html" class="logo"
+          >KA Portfolio <img src="/imgs/icons/catLogo.png" alt="cat logo" />
+        </a>
         <ul>
           <li class="active"><a href="#"></a>Home</li>
           <li><a href="#"></a>About</li>
@@ -41,7 +46,7 @@
 
     <!-- About Section -->
     <div class="about-container">
-      <img src="/imgs/sadstick.png" alt="killua" />
+      <img id="selfie" src="/imgs/self.jpg" alt="selfie" />
       <div class="about-text">
         <p>About Me</p>
         <p>Frontend Developer</p>
@@ -73,27 +78,120 @@
     </div>
 
     <!-- Skills -->
+    <h2 class="skillsHeader">Skills</h2>
     <div class="skills">
-      <h2 class="skillsHeader">Skills</h2>
-      <div class="skills-text">
-        <p>Skills</p>
-        <p>Frontend Skills</p>
-        <p>Backend Skills</p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In,
-          quibusdam. Vitae vero commodi, velit sunt repudiandae id saepe
-          corrupti doloribus asperiores ipsam, eaque in facilis accusantium
-          temporibus nihil consequuntur obcaecati.
-        </p>
+      <div class="skills-container">
+        <div class="skill">
+          <img src="/imgs/icons/html.ico" alt="html icon" />
+        </div>
+        <div class="skill">
+          <img src="/imgs/icons/css.png" alt="css icon" />
+        </div>
+        <div class="skill">
+          <img src="/imgs/icons/js.png" alt="javascript icon" />
+        </div>
+        <div id="bootstrap-icon" class="skill">
+          <img src="/imgs/icons/bootstrap.png" alt="bootstrap icon" />
+        </div>
+        <div class="skill">
+          <img src="/imgs/icons/git.png" alt="git icon" />
+        </div>
+        <div class="skill">
+          <img src="/imgs/icons/react.png" alt="react icon" />
+        </div>
+        <div class="skill">
+          <img src="/imgs/icons/node.png" alt="node icon" />
+        </div>
+        <div class="skill">
+          <img src="/imgs/icons/mongodb.png" alt="mongodb icon" />
+        </div>
       </div>
     </div>
+
     <!-- Projects -->
     <h2 class="projectsHeader">Projects</h2>
-    <div class="box-container">
-      <div class="box1"><p class="heading">Project1 Title</p></div>
-      <div class="box2"><p class="heading">Project2 Title</p></div>
-      <div class="box3"><p class="heading">Project3 Title</p></div>
-      <div class="box4"><p class="heading">Project4 Title</p></div>
+    <div class="projects-container">
+      <div class="box-container">
+        <div class="box1">
+          <span class="heading">Project 1 Title</span>
+          <p class="details">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            et modi itaque, accusantium dolorem repellendus fuga eaque
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box2">
+          <span class="heading">Project 2 Title</span>
+          <p class="details">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            et modi itaque, accusantium dolorem repellendus fuga eaque
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box3">
+          <span class="heading">Project 3 Title</span>
+          <p class="details">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            et modi itaque, accusantium dolorem repellendus fuga eaque
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box4">
+          <span class="heading">Project 4 Title</span>
+          <p class="details">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            et modi itaque, accusantium dolorem repellendus fuga eaque
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box5">
+          <span class="heading">Project 4 Title</span>
+          <p class="details">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            et modi itaque, accusantium dolorem repellendus fuga eaque
+          </p>
+          <button>Read More</button>
+        </div>
+        <div class="box6">
+          <span class="heading">Project 4 Title</span>
+          <p class="details">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
+            et modi itaque, accusantium dolorem repellendus fuga eaque
+          </p>
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div class="contact-me">
+      <p>Get in Touch With Me!</p>
+      <button>Contact Me</button>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <p>Blah blah</p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo
+        sapiente adipisicing elit. Explicabo sapiente
+      </p>
+      <!-- Social Media-->
+      <div class="social-icons">
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+      </div>
+      <!-- Copyright -->
+      <p class="copyright">&copy Kate An 2021</p>
+    </footer>
+    <!-- Side Nav -->
+    <div class="sideNav">
+      <a href="#"><i class="fa fa-home"></i></a>
+      <a href="#"><i class="fa fa-paint-brush"></i></a>
+      <a href="#"><i class="fa fa-tv"></i></a>
+      <a href="#"><i class="fa fa-gamepad"></i></a>
     </div>
   </body>
 </html>
