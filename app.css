@@ -195,6 +195,10 @@ span:nth-child(4) {
     border: 1px solid #838080;
 }
 
+.hire-btn a {
+    color: black;
+}
+
 .hire-btn {
     border: 2px solid #373636;
     color: #373636;
@@ -204,6 +208,10 @@ span:nth-child(4) {
     background-color: #2f2f2f;
     color: #FFF;
     border: none;
+}
+
+.down-cv a {
+    color: #fff;
 }
 
 .text-container button:hover {
@@ -424,6 +432,8 @@ span:nth-child(4) {
     font-size: 15px;
     color: black;
     text-decoration: none;
+    font-family: calibri;
+    font-weight: 550;
 }
 
 .box-container a:hover {
@@ -454,7 +464,7 @@ span:nth-child(4) {
 }
 
 .contact-me button {
-    width: 200px;
+    width: 150px;
     height: 40px;
     background-color: #fff;
     outline: none;
@@ -462,6 +472,17 @@ span:nth-child(4) {
     font-size: 14px;
     font-weight: bold;
     border-radius: 6px;
+    transition: all 200ms ease;
+}
+
+.contact-me a {
+    color: black;
+}
+
+.contact-me button:hover {
+    cursor: pointer;
+    transform: translateY(-0.25em);
+    cursor: pointer;
 }
 
 /* footer */
