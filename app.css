@@ -21,6 +21,8 @@ section {
     position: relative;
 }
 
+/* navbar */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -37,14 +39,12 @@ nav ul {
     display: flex;
 }
 
-/* test */
 .navlinks a {
     margin: 30px;
     font-family: myriad pro regular;
     color: #505050;
     font-size: 15px;
     font-weight: 700;
-    /* padding: 0px 12px; */
     padding-left: 5px;
 }
 
@@ -68,10 +68,82 @@ nav ul {
     transition: all 50ms ease;
 }
 
-.active {
-    font-weight: bold;
-    color: #2d2a2a;
+/* shooting star */
+span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background-color: #1f3f7a;
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px rgba(225, 225, 225, 0.1),
+    0 0 0 8px rgba(225, 225, 225, 0.1),
+    0 0 20px rgba(225, 225, 225, 1);
+    animation: animate 2.5s linear infinite;
 }
+
+span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 1px;
+    background: linear-gradient(90deg, #1f3f7a, transparent);
+}
+
+@keyframes animate 
+{
+    0%
+    {
+      transform: rotate(315deg) translateX(0);
+      opacity: 1;  
+    }
+    70% 
+    {
+        opacity: 1;
+    }
+    100%
+    {
+      transform: rotate(315deg) translateX(-1000px);
+      opacity: 0;  
+    }
+}
+
+span:nth-child(1) {
+    top: 0;
+    right: 100px;
+    left: initial;
+    animation-delay: 0.2;
+    animation-duration: 2s;
+}
+
+span:nth-child(2) {
+    top: 0;
+    right: 300px;
+    left: initial;
+    animation-delay: 0.3s;
+    animation-duration: 3s;
+}
+
+span:nth-child(3) {
+    top: 0px;
+    right: 500px;
+    left: initial;
+    animation-delay: 0.4s;
+    animation-duration: 2s;
+}
+
+span:nth-child(4) {
+    top: 0px;
+    right: 800px;
+    left: initial;
+    animation-delay: 0.6s;
+    animation-duration: 1.5s;
+}
+
+/* intro */
 
 .text-container p:nth-child(1) {
     font-family: calibri;
@@ -139,10 +211,12 @@ nav ul {
 .model {
     height: 700px;
     position: absolute;
-    bottom: 0px;
+    bottom: -60px;
     left: 75%;
     transform: translateX(-70%);
 }
+
+/* about */
 
 .about-container {
     width: 60%;
@@ -199,6 +273,8 @@ nav ul {
     margin: 0 10px;
 }
 
+/* skills */
+
 .skills {
     height: 450px;
     background-color: #FFF;
@@ -241,6 +317,8 @@ nav ul {
 .skill img {
     width: 100%;
 }
+
+/* projects */
 
 .projectsHeader {
     margin-top: 80px;
@@ -327,6 +405,8 @@ nav ul {
     border-radius: 5px;
 }
 
+/* contact */
+
 .contact-me {
     width: 100%;
     height: 280px;
@@ -357,6 +437,8 @@ nav ul {
     font-weight: bold;
     border-radius: 6px;
 }
+
+/* footer */
 
 footer {
     height: 300px;
@@ -424,6 +506,8 @@ footer p:nth-child(2) {
     bottom: 10px;
     transform: translateX(-50%);
 }
+
+/* sideNav */
 
 .sideNav {
     position: fixed;
