@@ -231,7 +231,7 @@ span:nth-child(4) {
 /* about */
 
 .about-container {
-    width: 60%;
+    width: 55%;
     height: 500px;
     background-color: #FFF;
     border-radius: 20px;
@@ -257,7 +257,7 @@ span:nth-child(4) {
     color: #403e3e;
     font-family: myriad pro;
     font-weight: bold;
-    font-size: 23px;
+    font-size: 25px;
     line-height: 0;
 }
 
@@ -269,10 +269,17 @@ span:nth-child(4) {
     line-height: 5px;
 }
 
-.about-text p:nth-child(3), .about-text p:nth-child(4){
-    color: #7e7d7d;
+.about-text p:nth-child(3) {
+    color: #5d5c5c;
     font-size: 16px;
     font-family: calibri;
+} 
+
+.about-text p:nth-child(4), .about-text p:nth-child(5){
+    color: #414040;
+    font-size: 16px;
+    font-family: calibri;
+    line-height: 1.5;
 }
 
 .social-container {
@@ -280,9 +287,13 @@ span:nth-child(4) {
 }
 
 .social {
-    font-size: 22px;
+    font-size: 25px;
     color: #5c6879;
     margin: 0 10px;
+}
+
+.social:hover {
+    color: #1f3f7a;
 }
 
 /* skills */
