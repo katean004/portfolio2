@@ -362,9 +362,8 @@ span:nth-child(4) {
     align-content: space-evenly;
     flex-wrap: wrap;
     width: 60%;
-    height: 800px;
-    padding: 4% 10% 4% 10%;
-    padding-top: 0px;
+    height: 750px;
+    padding: 1% 10% 3% 10%;
 }
 
 .box1, .box2, .box3, .box4, .box5, .box6 {
@@ -376,6 +375,10 @@ span:nth-child(4) {
     border-radius: 10px;
     display: flex;
     position: relative;
+}
+
+.box1, .box2, .box3 {
+    margin-bottom: 70px;
 }
 
 /* overlay */
@@ -391,7 +394,7 @@ span:nth-child(4) {
     bottom: 100%;
     left: 0;
     right: 0;
-    background-color: #1f2b44;
+    background-color: #3d3a3a;
     overflow: hidden;
     width: 100%;
     height:0;
@@ -425,8 +428,9 @@ span:nth-child(4) {
 }
 
 .details {
-    margin-top: 25px;
-    margin-bottom: 40px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
 }
 
 .box-container p {
@@ -445,6 +449,7 @@ span:nth-child(4) {
     text-decoration: none;
     font-family: calibri;
     font-weight: 550;
+    margin: 0px 10px;
 }
 
 .box-container a:hover {
